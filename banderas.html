@@ -13,7 +13,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-     <link href="css/estilo.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
     <link href="css/modern-business.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
@@ -32,10 +32,11 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">       <a class="nav-link" href="index.html">Inicio</a></li>
             <li class="nav-item">       <a class="nav-link" href="about.html">¿Quienes Somos?</a></li>
-            <li class="nav-item active"><a class="nav-link" >Historia del TKD</a></li>
-            <li class="nav-item">       <a class="nav-link" href="">Sign. de las banderas</a></li>
-            <li class="nav-item">       <a class="nav-link" href="">Sign. de las cintas</a></li>
-            <li class="nav-item">       <a class="nav-link" href="">Varios</a></li>            
+            <li class="nav-item">       <a class="nav-link" href="mdk_mexico.html">MDK en México</a></li>
+            <li class="nav-item">       <a class="nav-link" href="historia.html">Historia del TKD</a></li>
+            <li class="nav-item active"><a class="nav-link" href="">Sign. de las banderas</a></li>
+            <li class="nav-item">       <a class="nav-link" href="cintas.html">Sign. de las cintas</a></li>
+            <li class="nav-item">       <a class="nav-link" href="varios.html">Varios</a></li>            
           </ul>
         </div>
       </div>
@@ -45,7 +46,7 @@
     <div class="container">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Historia del TaeKwonDo
+      <h1 class="mt-4 mb-3">Sign. de las banderas y el escudo
         <!--<small>Acerca de MDK INFOMADE</small>-->
       </h1>
 
@@ -53,21 +54,63 @@
         <li class="breadcrumb-item">
           <a href="index.html">Inicio</a>
         </li>
-        <li class="breadcrumb-item active">Historia</li>
+        <li class="breadcrumb-item active">Banderas</li>
       </ol>
 
       <!-- Intro Content -->
-      <div class="row">
-        <div class="col-lg-6">
-          <!--Inicio body-->
-
+      <div class="row mb-4">
+        <div class="col-lg-12 text-center">
           
+          <!--inicio acordion-->
 
-          <!--Fin body-->
-        </div>
-        <div class="col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Bandera de México
+                  </button>
+                </h2>
+              </div>
           
-        </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail rounded " src="images/Mexico.jpg" alt="Significado bandera de México">
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Bandera de Corea
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail rounded " src="images/Corea.jpg" alt="Significado bandera de Corea">
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Escudo Moo Duk Kwan
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  <img class="img-fluid img-thumbnail rounded " src="images/Escudo_sig.png" alt="Significado escudo Moo Duk Kwan">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--fin acordion-->
+        </div> 
       </div>
       <!-- /.row -->     
           
